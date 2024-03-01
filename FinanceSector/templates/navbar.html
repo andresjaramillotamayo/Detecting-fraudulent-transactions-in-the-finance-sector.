@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="{{url_for('index')}}">Inicio | Aplicación Grupo No. 1</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Opciones de Métricas
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="{{url_for('confusion_matrix')}}">Matriz de Confusión</a></li>
+              <li><a class="dropdown-item" href="{{url_for('manual_metrics')}}">Métricas de Entrenamiento Manual</a></li>
+              <li><a class="dropdown-item" href="{{url_for('precision_curve')}}">Curva de Precisión</a></li>
+              <li><a class="dropdown-item" href="{{url_for('roc_curve')}}">Curva ROC</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
