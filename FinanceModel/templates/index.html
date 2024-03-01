@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="main-container pt-2 ps-lg-2">
+      <h1 class="fs-2 fw-semibold mb-3">Trabajo #2 - Productos de Datos</h1>
+      <div class="bd-intro mb-3">
+        <h3>Integrantes</h3>
+        <ul>
+          <li>Andrés Felipe Jaramillo Tamayo</li>
+          <li>Daniel Chanci Restrepo</li>
+          <li>José Antonio Trillos Paredes</li>
+          <li>Juan Pablo Aguirre Martínez</li>
+          <li>Salomón Pérez Atencia</li>
+        </ul>
+      </div>
+      <div class="mb-3">
+        <h3>Generalidades</h3>
+        <p>Esta página es creada con la finalidad de reportar los resultados obtenidos durante el proceso de entrenamiento y validación del modelo de datos creado para resolver y analizar la pregunta de negocio propuesta. Se tienen 4 tipos de resultados a los que se podrán acceder usando el botón desplegable arriba de la página.</p>
+      </div>
+      <div class="mb-3">
+        <h3>Modelo</h3>
+        <p>La detección del fraude es una técnica bastante compleja ya que este se comporta como una anomalía, por ello, se presenta una alta descompensación de clases.
+          Para este caso se hizo uso de <strong>Light GBM (Gradient Boosting Machine)</strong>, este marco de trabajo se basa en algoritmos de árboles de decisión, el cuál se utiliza para clasificar y otras tareas de aprendizaje automático.</p>
+      </div>
+      <div class="d-flex flex-column">
+        <img class="img-fluid card-img" src="{{ url_for('static', filename='images/lgbm.png') }}"/>
+        <small class="mx-auto">Figura 1: Explicación LGBM. Fuente: <a href='https://www.mdpi.com/2077-1312/9/5/496'>https://www.mdpi.com/2077-1312/9/5/496</a></small>
+      </div>
+    </div>
+{% endblock %}

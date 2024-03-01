@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/UNAL/Master%20Anal%C3%ADtica/2023-1S/Producto%20de%20Datos/Trabajos/ProcesamientoDatos/mlruns/743371455761528284/f88a3574ea5245f28a1b6560d6bb2b2f/artifacts
+end_time: 1679602582856
+entry_point_name: ''
+experiment_id: '743371455761528284'
+lifecycle_stage: active
+run_id: f88a3574ea5245f28a1b6560d6bb2b2f
+run_name: resilient-seal-451
+run_uuid: f88a3574ea5245f28a1b6560d6bb2b2f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679602578486
+status: 3
+tags: []
+user_id: User
