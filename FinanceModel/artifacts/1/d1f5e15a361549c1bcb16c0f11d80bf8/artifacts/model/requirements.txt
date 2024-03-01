@@ -1,0 +1,9 @@
+mlflow
+cffi==1.15.1
+cloudpickle==2.2.0
+defusedxml==0.7.1
+lightgbm==3.3.2
+matplotlib==3.6.2
+pandas==1.5.2
+psutil==5.9.4
+typing-extensions==4.4.0

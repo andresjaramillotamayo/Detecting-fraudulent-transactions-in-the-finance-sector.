@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h1 class="card-title">Curva ROC</h1>
+                </div>
+                <div class="card-body p-4">
+                       <div class="d-flex flex-column mb-4">
+                        <div class="text-center">
+                            <img class="img-fluid card-img" src="{{ url_for('static', filename='images/roc_curve.png') }}"/>
+                        </div>
+                        <small class="mx-auto">Figura 5: Curva ROC. Fuente: Elaboración Propia</small>
+                       </div>
+                        <p>Esta gráfica muestra la curva ROC o curva Caracterísica Operativa del Receptor, es una represetanción de la sensibilidad frente la especificidad para un sistema clasificador binario según varia el umbral de parámetros. También, presenta la proporción de verdaderos positivos frente a la razón de falsos positivos, según se varía el umbral.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
