@@ -1,0 +1,16 @@
+.main-container {
+    width: 100%;
+    height: 100%;
+}
+
+.main-container .container-div {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.img-chart {
+    box-sizing: border-box;
+    max-width: 1000px;
+    max-height: 1000px;
+}

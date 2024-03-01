@@ -1,0 +1,6 @@
+artifact_location: file:///d:/UNAL/Master%20Anal%C3%ADtica/2023-1S/Producto%20de%20Datos/Trabajos/ProcesamientoDatos/mlruns/743371455761528284
+creation_time: 1679602578469
+experiment_id: '743371455761528284'
+last_update_time: 1679602578469
+lifecycle_stage: active
+name: LightGBM_autolog_Fraud_Model
